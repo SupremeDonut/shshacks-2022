@@ -29,9 +29,11 @@ header {
 nav {
 	display: flex;
 	justify-content: space-between;
+	height: 100%;
 }
 
 .nav-item {
+	height: 100%;
 	width: 140px;
 	text-align: center;
 }
@@ -43,25 +45,11 @@ nav {
 	white-space: nowrap;
 }
 
-.nav-hover a{
-	text-decoration: none;
-	list-style: none;
-	color: white;
-}
-
-.nav-item:hover .nav-hover{
+.nav-item:hover .nav-hover {
 	display: block;
 	position: relative;
 	bottom: 0;
 }
-
-.elements{
-	display: flex;
-	flex-direction: column;
-	color: white;
-}
-
-
 
 footer {
 	width: 100%;
@@ -70,12 +58,4 @@ footer {
 	text-align: right;
 	background-color: #eee;
 	padding: 4px;
-}
-
-.sea.page, .land.page, .air.page{
-	height: 29.5vh;
-}
-
-.sea-info, .land-info, .air-info{
-	display: flex;
 }

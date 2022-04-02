@@ -1,0 +1,8 @@
+.page h2 {
+	padding-block: 6px;
+	text-align: center;
+}
+
+.info {
+	display: flex;
+}

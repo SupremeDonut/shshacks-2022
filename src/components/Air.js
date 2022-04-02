@@ -1,16 +1,18 @@
+import '../styles/Card.css';
 import '../styles/Air.css';
 
 function Air() {
 	return (
-	<div className="air page">
-		<div className="air-info">
-			<div className="air-card">
+	<div className="air page" id="air">
+		<h2>Air</h2>
+		<div className="air-info info">
+			<div className="air-card card">
 				just some quick facts like: i cant bereathe
 			</div>
-			<div className="air-card">
+			<div className="air-card card">
 				make the background like slightly transparent black or something
 			</div>
-			<div className="air-card">
+			<div className="air-card card">
 				theses are all in a row like cards u know
 			</div>
 		</div>
