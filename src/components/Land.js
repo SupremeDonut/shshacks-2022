@@ -7,23 +7,26 @@ function Land() {
 		<h2>Land</h2>
 		<div className="land-info info">
 			<div className="land-card card">
-				just some quick facts like: land overuse is bad or smht
+			<h2>Shocking Fact</h2>
 			</div>
 			<div className="land-card card">
-				make the background like slightly transparent black or something
+			<h2>Shocking Fact</h2>
 			</div>
 			<div className="land-card card">
-				theses are all in a row like cards u know
+			<h2>Shocking Fact</h2>
 			</div>
 		</div>
 		<div className="subsection overuse">
-			this is about land overuse
+		<h1>Title</h1>
+			<p>Info</p>
 		</div>
 		<div className="subsection land-pollution">
-			this is about land pollution
+		<h1>Title</h1>
+			<p>Info</p>
 		</div>
 		<div className="subsection deforestation">
-			trees and sh
+		<h1>Title</h1>
+			<p>Info</p>
 		</div>
 		interactive thing that will feature people doing stuff
 	</div>

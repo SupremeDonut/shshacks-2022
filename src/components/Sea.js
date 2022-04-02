@@ -7,23 +7,26 @@ function Sea() {
 		<h2>Sea</h2>
 		<div className="sea-info info">
 			<div className="sea-card card">
-				just some quick facts like: land overuse is bad or smht
+			<h2>Shocking Fact</h2>
 			</div>
 			<div className="sea-card card">
-				make the background like slightly transparent black or something
+			<h2>Shocking Fact</h2>
 			</div>
 			<div className="sea-card card">
-				theses are all in a row like cards u know
+			<h2>Shocking Fact</h2>
 			</div>
 		</div>
 		<div className="subsection levels">
-			its going up
+		<h1>Title</h1>
+			<p>Info</p>
 		</div>
 		<div className="subsection marine">
-			sea creature
+		<h1>Title</h1>
+			<p>Info</p>
 		</div>
 		<div className="subsection plastic">
-			plastic
+		<h1>Title</h1>
+			<p>Info</p>
 		</div>
 		interactive thing that will feature plastic being dumped
 	</div>

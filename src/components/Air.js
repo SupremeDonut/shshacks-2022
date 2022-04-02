@@ -7,23 +7,26 @@ function Air() {
 		<h2>Air</h2>
 		<div className="air-info info">
 			<div className="air-card card">
-				just some quick facts like: i cant bereathe
+				<h2>Shocking Fact</h2>
 			</div>
 			<div className="air-card card">
-				make the background like slightly transparent black or something
+			<h2>Shocking Fact</h2>
 			</div>
 			<div className="air-card card">
-				theses are all in a row like cards u know
+			<h2>Shocking Fact</h2>
 			</div>
 		</div>
 		<div className="subsection air-pollution">
-			this is about air pollution
+			<h1>Title</h1>
+			<p>Info</p>
 		</div>
 		<div className="subsection ozone">
-			ozone
+		<h1>Title</h1>
+			<p>Info</p>
 		</div>
 		<div className="subsection temp">
-			temperature rising
+		<h1>Title</h1>
+			<p>Info</p>
 		</div>
 		interactive thing that will feature car releasing co2
 	</div>

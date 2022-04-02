@@ -2,7 +2,23 @@
 	padding-block: 6px;
 	text-align: center;
 }
+.page{
+	padding: 1rem;
+}
+.card{
+	width: 31.25%;
+	height: 15rem;
+	padding: 1rem;
+	background: rgba(0, 0, 0, 0.274);
+	border-radius: 1rem;
+}
 
 .info {
 	display: flex;
+	gap: 1rem;
+	padding-bottom: 1rem;
+}
+
+p{
+	font-size: 15pt;
 }
