@@ -1,3 +1,5 @@
 .sea {
 	background-color: var(--sea1);
+	padding-left: 48px;
+	line-height: 1.75;
 }
