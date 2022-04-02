@@ -12,6 +12,9 @@
 	--sea3: #F7AD19;
 }
 
+.App{
+	font-family: 'Noto Sans', sans-serif;
+}
 header {
 	display: flex;
 	align-items: center;
@@ -38,6 +41,12 @@ nav {
 	list-style-type: none;
 	display: none;
 	white-space: nowrap;
+}
+
+.nav-hover a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
 }
 
 .nav-item:hover .nav-hover{
@@ -69,7 +78,4 @@ footer {
 
 .sea-info, .land-info, .air-info{
 	display: flex;
-}
-
-.sea-card, .air-card, .land-card{
 }
