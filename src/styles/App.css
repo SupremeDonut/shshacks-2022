@@ -1,3 +1,17 @@
+:root {
+	--land1: #476930;
+	--land2: #86B049;
+	--land3: #C8B88A;
+
+	--air1: #1F2633;
+	--air2: white;
+	--air3: #ff6148;
+
+	--sea1: #429EBD;
+	--sea2: #053F5C;
+	--sea3: #F7AD19;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -29,33 +43,15 @@ nav {
 }
 
 .land {
-	background-color: #476930;
-}
-.land2 {
-	background-color: #86B049;
-}
-.land3 {
-	background-color: #C8B88A;
+	background-color: var(--land1);
 }
 
 .air {
-	background-color: #1F2633;
-}
-.air2 {
-	background-color: white;
-}
-.air3 {
-	background-color: #ff6148;
+	background-color: var(--air1);
 }
 
 .sea {
-	background-color: #429EBD;
-}
-.sea2 {
-	background-color: #053F5C;
-}
-.sea3 {
-	background-color: #F7AD19;
+	background-color: var(--sea1);
 }
 
 footer {
