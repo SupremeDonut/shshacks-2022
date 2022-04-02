@@ -14,9 +14,13 @@
 
 header {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 	height: 100px;
 	padding: 4px 8px;
+	background: black;
+	color: white;
+	
 }
 
 nav {
@@ -42,6 +46,14 @@ nav {
 	bottom: 0;
 }
 
+.elements{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+
+
 footer {
 	width: 100%;
 	position: fixed;
@@ -49,4 +61,15 @@ footer {
 	text-align: right;
 	background-color: #eee;
 	padding: 4px;
+}
+
+.sea.page, .land.page, .air.page{
+	height: 29.5vh;
+}
+
+.sea-info, .land-info, .air-info{
+	display: flex;
+}
+
+.sea-card, .air-card, .land-card{
 }

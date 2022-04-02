@@ -38,9 +38,13 @@ function App() {
 				</div>
 			</nav>
 		</header>
+		
+		<div className="elements">
 		<Land />
 		<Air />
 		<Sea />
+		</div>
+		
 		<footer>
 			Made by Daniel, Luke, Rishi, Shreepad, and Jayesh
 		</footer>
