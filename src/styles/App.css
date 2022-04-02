@@ -42,21 +42,9 @@ nav {
 	bottom: 0;
 }
 
-.land {
-	background-color: var(--land1);
-}
-
-.air {
-	background-color: var(--air1);
-}
-
-.sea {
-	background-color: var(--sea1);
-}
-
 footer {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	text-align: right;
 	background-color: #eee;
