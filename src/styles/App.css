@@ -12,6 +12,9 @@
 	--sea3: #F7AD19;
 }
 
+.App{
+	font-family: 'Noto Sans', sans-serif;
+}
 header {
 	display: flex;
 	align-items: center;
