@@ -10,7 +10,7 @@ function App() {
 			<h1>Climate Change</h1>
 			<nav>
 				<div className="nav-item">
-					<h2>Land</h2>
+					<h2><a href="#land">Land</a></h2>
 					<ul className="nav-hover">
 						<li><a href="#">Land Overuse</a></li>
 						<li><a href="#">Land Pollution</a></li>
@@ -18,7 +18,7 @@ function App() {
 					</ul>
 				</div>
 				<div className="nav-item">
-					<h2>Air</h2>
+					<h2><a href="#air">Air</a></h2>
 					<ul className="nav-hover">
 						<li><a href="#">Air Pollution</a></li>
 						<li><a href="#">Ozone</a></li>
@@ -26,7 +26,7 @@ function App() {
 					</ul>
 				</div>
 				<div className="nav-item">
-					<h2>Sea</h2>
+					<h2><a href="#sea">Sea</a></h2>
 					<ul className="nav-hover">
 						<li><a href="#">Sea Levels</a></li>
 						<li><a href="#">Marine Life</a></li>
@@ -38,13 +38,9 @@ function App() {
 				</div>
 			</nav>
 		</header>
-		
-		<div className="elements">
 		<Land />
 		<Air />
 		<Sea />
-		</div>
-		
 		<footer>
 			Made by Daniel, Luke, Rishi, Shreepad, and Jayesh
 		</footer>
