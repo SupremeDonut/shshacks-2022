@@ -2,6 +2,7 @@ import './styles/App.css';
 import Land from './components/Land';
 import Air from './components/Air';
 import Sea from './components/Sea';
+import 'tachyons';
 
 function App() {
 	return (
