@@ -4,15 +4,33 @@ nav {
 
 
 .land {
-	background-color: green;
+	background-color: #476930;
+}
+.land2 {
+	background-color: #86B049;
+}
+.land3 {
+	background-color: #C8B88A;
 }
 
 .air {
-	background-color: aquamarine;
+	background-color: #1F2633;
+}
+.air2 {
+	background-color: white;
+}
+.air3 {
+	background-color: #ff6148;
 }
 
 .sea {
-	background-color: blue;
+	background-color: #429EBD;
+}
+.sea2 {
+	background-color: #053F5C;
+}
+.sea3 {
+	background-color: #F7AD19;
 }
 
 footer {
