@@ -23,8 +23,7 @@ function Sea() {
 		</div>
 		<div className="subsection marine">
 		<h1>Global warming through sea</h1>
-			<p> Global climate change has already had observable effects on the environment. Glaciers have shrunk, ice on rivers and lakes is breaking up earlier, plant and animal ranges have shifted and trees are flowering sooner.  
-</p>
+			<p> Global climate change has already had observable effects on the environment. Glaciers have shrunk, ice on rivers and lakes is breaking up earlier, plant and animal ranges have shifted and trees are flowering sooner.</p>
 		</div>
 		<div className="subsection plastic">
 		<h1>Coral reefs</h1>
@@ -33,6 +32,7 @@ function Sea() {
 		<div className="minigame">
 			<div className="miniland"></div>
 			<div className="minisea"></div>
+		</div>
 		</div>
 	</div>
 	);
