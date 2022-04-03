@@ -3,7 +3,7 @@ import '../styles/Air.css';
 
 function Air() {
 	return (
-	<div className="air page" id="air">
+	<div className="air page" id = "Air">
 		<h2>Air</h2>
 		<div className="air-info info">
 			<div className="air-card card">

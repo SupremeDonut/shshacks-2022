@@ -4,12 +4,14 @@ import Air from './components/Air';
 import Sea from './components/Sea';
 import learn_more from './components/learn_more';
 import 'tachyons';
+import './scroll';
 
 function App() {
 	return (
 	<div className="App">
 		<header>
-			<h1>Climate Change</h1>
+			<div className='navbar'>
+			<label className='logo'>Climate Change</label>
 			<nav>
 				<div className="nav-item">
 					<h2><a href="#land">Land</a></h2>
@@ -20,7 +22,7 @@ function App() {
 					</ul>
 				</div>
 				<div className="nav-item">
-					<h2><a href="#air">Air</a></h2>
+					<h2><a href="#Air">Air</a></h2>
 					<ul className="nav-hover">
 						<li><a href="#">Air Pollution</a></li>
 						<li><a href="#">Ozone</a></li>
@@ -39,11 +41,14 @@ function App() {
 					<h2>Learn More</h2>
 				</div>
 			</nav>
+			</div>
 		</header>
+		<div className = 'content'>
 		<Land />
 		<Air />
 		<Sea />
 		<learn_more />
+		</div>
 		<footer>
 			Made by Daniel, Luke, Rishi, Shreepad, and Jayesh
 		</footer>
