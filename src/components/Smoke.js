@@ -7,12 +7,12 @@ class Smoke extends React.Component {
 		this.state = {
 			time: 0,
 			x: props.x,
-			opacity: 1
+			opacity: 0.8
 		}
 		this.getPosition = this.getPosition.bind(this);
 		this.move = this.move.bind(this);
 		setInterval(this.move, 50);
-		setTimeout(() => this.state.opacity = 0, 100);
+		setTimeout(() => this.setState({ opactiy: 0 }), 100);
 	}
 
 	move() {
@@ -20,7 +20,7 @@ class Smoke extends React.Component {
 	}
 
 	getPosition() {
-		const trans = `translate(${this.state.x - this.state.time * 5 - 80}px, ${220 - this.state.time}px)`
+		const trans = `translate(${this.state.x - this.state.time * 5 - 80}px, ${260 - this.state.time}px)`
 		return trans;
 	}
 

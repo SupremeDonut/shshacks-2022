@@ -13,25 +13,25 @@ function App() {
 				<div className="nav-item">
 					<h2><a href="#land">Land</a></h2>
 					<ul className="nav-hover">
-						<li><a href="#">Land Overuse</a></li>
-						<li><a href="#">Land Pollution</a></li>
-						<li className = 'corner'><a href="#">Deforestation</a></li>
+						<li><a href="#overuse">Land Overuse</a></li>
+						<li><a href="#lpoll">Land Pollution</a></li>
+						<li><a href="#deforest">Deforestation</a></li>
 					</ul>
 				</div>
 				<div className="nav-item">
 					<h2><a href="#Air">Air</a></h2>
 					<ul className="nav-hover">
-						<li><a href="#">Air Pollution</a></li>
-						<li><a href="#">Ozone</a></li>
-						<li className = 'corner'><a href="#">Temperature</a></li>
+						<li><a href="#apoll">Air Pollution</a></li>
+						<li><a href="#ozone">Ozone</a></li>
+						<li><a href="#temp">Temperature</a></li>
 					</ul>
 				</div>
 				<div className="nav-item">
 					<h2><a href="#sea">Sea</a></h2>
 					<ul className="nav-hover">
-						<li><a href="#">Sea Levels</a></li>
-						<li><a href="#">Marine Life</a></li>
-						<li className = 'corner'><a href="#">Plastic in Ocean</a></li>
+						<li><a href="#levels">Sea Levels</a></li>
+						<li><a href="#marine">Marine Life</a></li>
+						<li><a href="#plastic">Plastic in Ocean</a></li>
 					</ul>
 				</div>
 				<div className="nav-item">
