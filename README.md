@@ -1,4 +1,4 @@
-# shs-hacks 2022
+# [shs-hacks 2022](https://supremedonut.github.io/shshacks-2022/)
 
 ## Made by Daniel, Luke, Rishi, Shreepaad, and Jayesh
 
