@@ -32,6 +32,8 @@ class Air extends React.Component {
 		car.style.left = "";
 		this.setState({ running: false });
 		clearInterval(interval);
+		await new Promise(r => setTimeout(r, 1000));
+		this.setState({ smokeList: [] });
 	}
 
 	createSmoke() {
