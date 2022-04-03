@@ -1,3 +1,4 @@
+
 :root {
 	--land1: #476930;
 	--land2: #86B049;
@@ -94,3 +95,32 @@ ul li a {
 	text-decoration: none;
 	color: black;
 }
+header ul li{
+	line-height: 80px;
+	margin: 0 5px;
+  }
+  header ul li a{
+	color: black;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+  }
+  a.active,a:hover{
+	background: #1b9bff;
+	transition: .5s;
+	text-decoration: none;
+	color: #000000;
+	border-radius: 5px;
+  }
+
+  h2 {
+	  color: white;
+  }
+  h1 {
+	  color: white;
+  }
+  
+  p {
+	  color:white;
+  }
