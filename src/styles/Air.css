@@ -2,9 +2,23 @@
 	background-color: var(--air1);
 	overflow: hidden;
 }
+.h1 {
+	color: #ff6148;
+}
+.p {
+	font-size: 11pt;
+}
 .padding {
 	padding-left: 5%;
 	line-height: 1.75;
+}
+
+.minigame {
+	width: 120%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	margin-left: -3rem;
 }
 
 .smokes {

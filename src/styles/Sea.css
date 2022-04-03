@@ -1,9 +1,17 @@
 .sea {
-	background-color: var(--sea1);
+	background-color: var(--sea2);
 }
 .padding {
 	padding-left: 5%;
 	line-height: 1.75;
+}
+
+.h1 {
+	color: #F7AD19;
+}
+
+.p {
+	font-size: 11pt;
 }
 
 .miniland, .minisea {
