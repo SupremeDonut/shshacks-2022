@@ -5,7 +5,6 @@ function Land() {
 	return (
 	<div className="land page" id="land">
 		<h2>Land</h2>
-		<div className='padding'>
 		<div className="land-info info">
 			<div className="land-card card">
 			<h2>Shocking Fact</h2>
@@ -17,6 +16,7 @@ function Land() {
 			<h2>Shocking Fact</h2>
 			</div>
 		</div>
+		<div className='padding'>
 		<div className="subsection overuse">
 		<h1>Climate change affects soil</h1>
 			<p> Soil moisture has significantly decreased in the Mediterranean region and increased in parts of northern Europe since the 1950s. Continuing declines in soil moisture can increase the need for irrigation in agriculture and lead to smaller yields and even desertification, with potentially dramatic impacts on food production.

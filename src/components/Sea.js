@@ -5,7 +5,6 @@ function Sea() {
 	return (
 	<div className="sea page" id="sea">
 		<h2>Sea</h2>
-		<div className='padding'>
 		<div className="sea-info info">
 			<div className="sea-card card">
 			<h2>Shocking Fact</h2>
@@ -17,6 +16,7 @@ function Sea() {
 			<h2>Shocking Fact</h2>
 			</div>
 		</div>
+		<div className='padding'>
 		<div className="subsection levels">
 		<h1>Sea Levels</h1>
 			<p>As the oceans warm due to an increasing global temperature, seawater expands—taking up more space in the ocean basin and causing a rise in water level.</p>

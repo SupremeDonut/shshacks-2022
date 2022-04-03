@@ -45,7 +45,6 @@ class Air extends React.Component {
 		return (
 		<div className="air page" id="Air">
 			<h2>Air</h2>
-			<div className='padding'>
 			<div className="air-info info">
 				<div className="air-card card">
 					<h2>Shocking Fact</h2>
@@ -57,6 +56,7 @@ class Air extends React.Component {
 				<h2>Shocking Fact</h2>
 				</div>
 			</div>
+			<div className='padding'>
 			<div className="subsection air-pollution">
 				<h1>Greenhouse gases</h1>
 				<p> Global warming is the increase of Earth's average surface temperature due to greenhouse gases that collect in the atmosphere like a thickening blanket, trapping the sun's heat and causing the planet to warm up.</p>
