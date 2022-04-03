@@ -1,5 +1,4 @@
 import React from "react"
-
 class Smoke extends React.Component {
 	constructor(props) {
 		super(props);
