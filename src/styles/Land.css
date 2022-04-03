@@ -14,3 +14,17 @@ h1 {
 p {
 	font-size: 11pt;
 }
+
+.land-card1 {
+	background-image: url(https://images.fineartamerica.com/images-medium-large/cracked-ground-dirt-brandon-bourdages.jpg);
+	background-position: center;
+}
+
+.land-card2 {
+	background-image: url(https://i0.wp.com/www.engineeringchoice.com/wp-content/uploads/2020/09/trash-4897854_1280.jpg?resize=798%2C599&ssl=1);
+	background-position: center;
+}
+.land-card3 {
+	background-image: url(https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/09/07/134169c0-d10b-11e9-9cec-db56b3c139e7_image_hires_092403.jpg?itok=0WzTBlGB&v=1567819453);
+	background-position: center;
+}
