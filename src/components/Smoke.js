@@ -1,18 +1,18 @@
-import React from "react"
+import React from "react";
+import smoke from "../assets/smoke.png";
+
 class Smoke extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			time: 0,
 			x: props.x,
-			render: true,
 			opacity: 1
 		}
 		this.getPosition = this.getPosition.bind(this);
 		this.move = this.move.bind(this);
 		setInterval(this.move, 50);
 		setTimeout(() => this.state.opacity = 0, 100);
-		setTimeout(() => {this.state.render = false}, 1000);
 	}
 
 	move() {
@@ -20,13 +20,12 @@ class Smoke extends React.Component {
 	}
 
 	getPosition() {
-		const trans = `translate(${this.state.x - this.state.time * 5}px, ${280 - this.state.time}px)`
+		const trans = `translate(${this.state.x - this.state.time * 5}px, ${270 - this.state.time}px)`
 		return trans;
 	}
 
 	render() {
-		if (this.state.render == false) return null;
-		return <div className="smoke" style={{ transform: this.getPosition(), opacity: this.state.opacity }}>test</div>
+		return <img className="smoke" style={{ transform: this.getPosition(), opacity: this.state.opacity }} alt="smoke" src={smoke} ></img>
 	}
 }
 

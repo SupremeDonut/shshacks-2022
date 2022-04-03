@@ -22,6 +22,7 @@
 .smoke {
 	position: absolute;
 	transition: opacity 0.4s ease-out;
+	width: 30px;
 }
 
 .minicar {
