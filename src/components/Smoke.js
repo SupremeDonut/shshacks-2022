@@ -20,7 +20,7 @@ class Smoke extends React.Component {
 	}
 
 	getPosition() {
-		const trans = `translate(${this.state.x - this.state.time * 5}px, ${270 - this.state.time}px)`
+		const trans = `translate(${this.state.x - this.state.time * 5 - 80}px, ${220 - this.state.time}px)`
 		return trans;
 	}
 

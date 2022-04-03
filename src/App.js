@@ -2,9 +2,6 @@ import './styles/App.css';
 import Land from './components/Land';
 import Air from './components/Air';
 import Sea from './components/Sea';
-import learn_more from './components/learn_more';
-import 'tachyons';
-import './scroll';
 
 function App() {
 	return (

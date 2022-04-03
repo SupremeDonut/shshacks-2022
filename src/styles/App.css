@@ -22,20 +22,15 @@ html {
 }
 
 header {
-	display: float;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0px;
 	height: 100px;
-	padding: 0px;
 	background: white;
-	color: black;
 	position: -webkit-sticky;
 	top: 0;
 	width: 100%;
 	position: fixed;
 	z-index: 2;
-	
 }
 
 nav {
@@ -57,6 +52,10 @@ nav {
 	list-style-type: none;
 	display: none;
 	white-space: nowrap;
+	background-color: rgba(255, 255, 255, 1);
+	line-height: 80px;
+	width: 200px;
+	margin: 0 5px;
 }
 
 .nav-item:hover .nav-hover {
@@ -65,8 +64,8 @@ nav {
 	bottom: 0;
 }
 
-header ul .corner{
-	border-radius:0% 0% 15% 15%;
+header ul .corner {
+	border-radius: 0% 0% 15% 15%;
 }
 
 footer {
@@ -75,13 +74,6 @@ footer {
 	text-align: right;
 	background-color: #eee;
 	padding: 4px;
-}
-
-
-header {
-	padding-left: 4%;
-	padding: 0;
-	margin: 0;
 }
 
 .content {
@@ -96,32 +88,18 @@ header {
 }
 
 label.logo {
-	color: black;
 	font-size: 35px;
 	padding: 0 100px;
 	font-weight: bold;
 }
 
-h2 a {
+h2 a, ul li a {
 	text-decoration: none;
 	color: black;
-} 
-
-ul li a {
-	text-decoration: none;
-	color: black;
-}
-
-header ul li {
-	background-color: rgba(255, 255, 255, 1);
-	line-height: 80px;
-	width: 200px;
-	margin: 0 5px;
 }
 
 header ul li a {
 	background-color: white;
-	color: black;
 	font-size: 17px;
 	padding: 7px 13px;
 	border-radius: 3px;
@@ -138,8 +116,4 @@ header ul li a:hover {
 
 h1, h2, p {
 	color: white;
-}
-
-header h2 {
-	color:black;
 }
