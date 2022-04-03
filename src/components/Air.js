@@ -45,6 +45,7 @@ class Air extends React.Component {
 		return (
 		<div className="air page" id="Air">
 			<h2>Air</h2>
+			<div className='padding'>
 			<div className="air-info info">
 				<div className="air-card card">
 					<h2>Shocking Fact</h2>
@@ -57,22 +58,21 @@ class Air extends React.Component {
 				</div>
 			</div>
 			<div className="subsection air-pollution">
-				<h1>Greenhouse gases
-</h1>
-				<p> Global warming is the increase of Earth's average surface temperature due to greenhouse gases that collect in the atmosphere like a thickening blanket, trapping the sun's heat and causing the planet to warm up.
-</p>
+				<h1>Greenhouse gases</h1>
+				<p> Global warming is the increase of Earth's average surface temperature due to greenhouse gases that collect in the atmosphere like a thickening blanket, trapping the sun's heat and causing the planet to warm up.</p>
 			</div>
 			<div className="subsection ozone">
-			<h1>Title</h1>
-				<p>Info</p>
+			<h1> Pollution</h1>
+				<p> Based on today’s insufficient global commitments to reduce climate polluting emissions, a rebound in greenhouse gases from a return to high-carbon societies after the pandemic may push 2030 emissions even higher – up to 60 GtCO2e.</p>
 			</div>
 			<div className="subsection temp">
-			<h1>Title</h1>
-				<p>Info</p>
+			<h1> Atmosphere effects</h1>
+				<p>While heat waves and droughts are becoming more common and intense, rainstorms are also becoming more powerful, sometimes provoking dangerous floods.</p>
 			</div>
 			<div className="minigame">
 				<div className="smokes">{this.state.smokeList}</div>
 				<img className="minicar" src={car} id="car" alt="car" onClick={this.fartGas}></img>
+			</div>
 			</div>
 		</div>
 		);
