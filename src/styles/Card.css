@@ -11,12 +11,23 @@
 	padding: 1rem;
 	background: rgba(0, 0, 0, 0.274);
 	border-radius: 1rem;
+	overflow: hidden;
+}
+
+.card h2{
+	transform: translateY(230px);
+	transition: transform ease-in 350ms;
 }
 
 .info {
 	display: flex;
 	gap: 1rem;
 	padding-bottom: 1rem;
+}
+
+.card:hover h2{
+	transform: translateY(80px);
+	transition: transform ease-in 350ms;
 }
 
 p{
