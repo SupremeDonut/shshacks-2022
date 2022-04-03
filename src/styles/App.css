@@ -13,9 +13,14 @@
 	--sea3: #F7AD19;
 }
 
-.App{
+html {
+	scroll-behavior: smooth;
+}
+
+.App {
 	font-family: 'Noto Sans', sans-serif;
 }
+
 header {
 	display: float;
 	align-items: center;
@@ -26,9 +31,9 @@ header {
 	background: white;
 	color: black;
 	position: -webkit-sticky;
- 	top: 0;
-  	width: 100%;
- 	position: fixed;
+	top: 0;
+	width: 100%;
+	position: fixed;
 	
 }
 
