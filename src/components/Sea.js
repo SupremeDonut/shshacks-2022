@@ -29,10 +29,6 @@ function Sea() {
 		<h1>Coral reefs</h1>
 			<p>In the last 30 years, half of the world’s coral reefs have died due to climate change. In Jamaica, which lost 85% of its coral to hurricanes and pollution, “coral gardeners” are nurturing young corals.</p>
 		</div>
-		<div className="minigame">
-			<div className="miniland"></div>
-			<div className="minisea"></div>
-		</div>
 		</div>
 	</div>
 	);
