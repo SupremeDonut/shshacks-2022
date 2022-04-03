@@ -43,6 +43,7 @@ class Air extends React.Component {
 		return (
 		<div className="air page" id="Air">
 			<h2>Air</h2>
+			<div className='padding'>
 			<div className="air-info info">
 				<div className="air-card card">
 					<h2>Shocking Fact</h2>
@@ -71,6 +72,7 @@ class Air extends React.Component {
 			<div className="minigame">
 				<div className="smokes">{this.state.smokeList}</div>
 				<img className="minicar" src={car} id="car" alt="car" onClick={this.fartGas}></img>
+			</div>
 			</div>
 		</div>
 		);

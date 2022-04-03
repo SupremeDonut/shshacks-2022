@@ -5,6 +5,7 @@ function Land() {
 	return (
 	<div className="land page" id="land">
 		<h2>Land</h2>
+		<div className='padding'>
 		<div className="land-info info">
 			<div className="land-card card">
 			<h2>Shocking Fact</h2>
@@ -35,6 +36,7 @@ function Land() {
 </p>
 		</div>
 		interactive thing that will feature people doing stuff
+		</div>
 	</div>
 	);
 }

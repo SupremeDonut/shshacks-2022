@@ -1,8 +1,10 @@
 .air {
 	background-color: var(--air1);
+	overflow: hidden;
+}
+.padding {
 	padding-left: 5%;
 	line-height: 1.75;
-	overflow: hidden;
 }
 
 .minigame {

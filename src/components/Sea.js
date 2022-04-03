@@ -5,6 +5,7 @@ function Sea() {
 	return (
 	<div className="sea page" id="sea">
 		<h2>Sea</h2>
+		<div className='padding'>
 		<div className="sea-info info">
 			<div className="sea-card card">
 			<h2>Shocking Fact</h2>
@@ -29,6 +30,7 @@ function Sea() {
 			<p>Info</p>
 		</div>
 		interactive thing that will feature plastic being dumped
+		</div>
 	</div>
 	);
 }
