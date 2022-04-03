@@ -2,4 +2,45 @@
 	background-color: var(--air1);
 	padding-left: 48px;
 	line-height: 1.75;
+	overflow: hidden;
+}
+
+.minigame {
+	width: 120%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	margin-left: -3rem;
+}
+
+.smokes {
+	position: relative;
+}
+
+.smoke {
+	position: absolute;
+	transition: opacity 0.4s ease-out;
+}
+
+.minicar {
+	width: 100px;
+	position: absolute;
+	left: 40px;
+	bottom: 0;
+}
+
+@keyframes rev {
+	from {left: 37px;}
+	50% {left: 43px;}
+	to {left: 37px;}
+}
+
+@keyframes run {
+	from {left: 40px;}
+	to {left: 200vw;}
+}
+
+@keyframes return {
+	from {left: -150px}
+	to {left: 40px}
 }
