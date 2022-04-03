@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shshacks-2022/static/css/main.308a367b.css",
+    "main.js": "/shshacks-2022/static/js/main.a8d9627a.js",
+    "static/media/car.png": "/shshacks-2022/static/media/car.27dbfeb49330ff54ec27.png",
+    "index.html": "/shshacks-2022/index.html",
+    "main.308a367b.css.map": "/shshacks-2022/static/css/main.308a367b.css.map",
+    "main.a8d9627a.js.map": "/shshacks-2022/static/js/main.a8d9627a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.308a367b.css",
+    "static/js/main.a8d9627a.js"
+  ]
+}
