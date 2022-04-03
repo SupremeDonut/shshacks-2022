@@ -55,8 +55,10 @@ class Air extends React.Component {
 				</div>
 			</div>
 			<div className="subsection air-pollution">
-				<h1>Title</h1>
-				<p>Info</p>
+				<h1>Greenhouse gases
+</h1>
+				<p> Global warming is the increase of Earth's average surface temperature due to greenhouse gases that collect in the atmosphere like a thickening blanket, trapping the sun's heat and causing the planet to warm up.
+</p>
 			</div>
 			<div className="subsection ozone">
 			<h1>Title</h1>
