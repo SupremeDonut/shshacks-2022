@@ -130,7 +130,7 @@ h1, h2, p {
     margin-top: -100px;
 }
 
-@media (max-width: 1046px) {
+@media (max-width: 500px) {
 	nav-item h2 {
 		font-size: 10;
 	}
