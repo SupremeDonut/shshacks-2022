@@ -48,6 +48,7 @@ nav {
 	height: 100%;
 	width: 140px;
 	text-align: center;
+	padding-top: 7.6px;
 }
 
 .nav-hover {
@@ -117,7 +118,7 @@ header ul li{
 	border-radius: 3px;
 	text-transform: uppercase;
   }
-  a.active,a:hover{
+  header ul li a:hover{
 	background: #1b9bff;
 	transition: .5s;
 	text-decoration: none;
