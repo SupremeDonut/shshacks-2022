@@ -50,7 +50,7 @@ function App() {
 		<learn_more />
 		</div>
 		<footer>
-			Made by Daniel, Luke, Rishi, Shreepad, and Jayesh
+			Made by Daniel, Luke, Rishi, Shreepaad, and Jayesh
 		</footer>
     </div>
 	);
