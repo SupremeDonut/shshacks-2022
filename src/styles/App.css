@@ -41,10 +41,14 @@ nav {
 }
 
 .nav-item {
+	margin: 0 auto;
 	height: 100%;
 	width: 140px;
 	text-align: center;
 	padding-top: 7.6px;
+}
+.nav-item h2 {
+	color:black;
 }
 
 .nav-hover {
@@ -116,4 +120,12 @@ header ul li a:hover {
 
 h1, h2, p {
 	color: white;
+}
+#land {
+	padding-top: 50px;
+    margin-top: -50px;
+}
+#air, #sea, #soil, #global_warming, #deforest, #greenhouse_gases, #pollution, #atmosphere, #levels, #sea_warming, #coral_reefs {
+	padding-top: 100px;
+    margin-top: -100px;
 }
