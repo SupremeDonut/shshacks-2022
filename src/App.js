@@ -34,9 +34,6 @@ function App() {
 						<li><a href="#coral_reefs">Plastic in Ocean</a></li>
 					</ul>
 				</div>
-				<div className="nav-item">
-					<h2>Learn More</h2>
-				</div>
 			</nav>
 			</div>
 		</header>
