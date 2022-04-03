@@ -5,14 +5,6 @@
 	overflow: hidden;
 }
 
-.minigame {
-	width: 120%;
-	height: 300px;
-	position: relative;
-	overflow: hidden;
-	margin-left: -3rem;
-}
-
 .smokes {
 	position: relative;
 }

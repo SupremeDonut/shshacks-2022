@@ -3,3 +3,22 @@
 	padding-left: 5%;
 	line-height: 1.75;
 }
+
+.miniland, .minisea {
+	position: absolute;
+	bottom: 0;
+}
+
+.miniland {
+	width: 200px;
+	height: 100px;
+	background-color: brown;
+	left: 0;
+}
+
+.minisea {
+	width: calc(100% - 200px);
+	height: 70px;
+	background-color: aqua;
+	left: 200px;
+}

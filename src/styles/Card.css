@@ -2,10 +2,10 @@
 	padding-block: 6px;
 	text-align: center;
 }
-.page{
+.page {
 	padding: 1rem;
 }
-.card{
+.card {
 	width: 31.25%;
 	height: 15rem;
 	padding: 1rem;
@@ -14,7 +14,7 @@
 	overflow: hidden;
 }
 
-.card h2{
+.card h2 {
 	transform: translateY(230px);
 	transition: transform ease-in 350ms;
 }
@@ -25,14 +25,21 @@
 	padding-bottom: 1rem;
 }
 
-.card:hover h2{
+.card:hover h2 {
 	transform: translateY(80px);
 	transition: transform ease-in 350ms;
 }
 
-p{
+p {
 	font-size: 15pt;
 }
 h2 {
 	display: block
+}
+
+.minigame {
+	width: 120%;
+	height: 250px;
+	position: relative;
+	margin-left: -3rem;
 }

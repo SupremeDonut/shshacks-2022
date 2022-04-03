@@ -28,7 +28,10 @@ function Sea() {
 		<h1>Title</h1>
 			<p>Info</p>
 		</div>
-		interactive thing that will feature plastic being dumped
+		<div className="minigame">
+			<div className="miniland"></div>
+			<div className="minisea"></div>
+		</div>
 	</div>
 	);
 }
