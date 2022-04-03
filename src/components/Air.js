@@ -4,7 +4,6 @@ import car from '../assets/car.png'
 import Smoke from './Smoke.js';
 import React from 'react';
 
-
 class Air extends React.Component {
 	constructor() {
 		super()
@@ -42,7 +41,7 @@ class Air extends React.Component {
 
 	render() {
 		return (
-		<div className="air page" id="air">
+		<div className="air page" id="Air">
 			<h2>Air</h2>
 			<div className="air-info info">
 				<div className="air-card card">
