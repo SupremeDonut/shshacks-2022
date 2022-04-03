@@ -2,6 +2,13 @@
 	background-color: var(--air1);
 	overflow: hidden;
 }
+h1 {
+	color: #ff6148;
+}
+
+p {
+	font-size: 11pt;
+}
 
 .padding {
 	padding-left: 5%;
